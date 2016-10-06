@@ -1,8 +1,4 @@
-(function() {
-    "use strict";
-
-    window.onload = function() {
-        $("#red-content").load("paul.html");
-        $("#white-content").load("menu.html");
-    }
-})();
+// (function() {
+//     $("#red-content").load("html/paul.html");
+//     $("#white-content").load("html/menu.html");
+// })();
