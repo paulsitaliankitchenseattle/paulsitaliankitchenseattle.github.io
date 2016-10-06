@@ -8,7 +8,7 @@
     window.onload = function() {
         panelsToggle = [true, false, false];
         panels = $(".body-panel");
-        firstPanel = [3, "19vh", "88%"], middlePanel = [2, "20vh", "85%"], lastPanel = [1, "21vh", "82%"];
+        firstPanel = [3, "16vh", "88%"], middlePanel = [2, "17vh", "85%"], lastPanel = [1, "18vh", "82%"];
 
         //Fade in top panel
         $("#top-panel").animate({"opacity" : "1"}, 600);
@@ -16,13 +16,13 @@
                         // .animate({"margin-top" : "0vh"}, 200);
         //Flag stripes drop animation
         $("#red-panel").css({"z-index" : firstPanel[0], "top" : firstPanel[1]}).addClass("active");
-        $("#red-panel").delay(300).animate({"left" : "4vw"}, 300);
+        $("#red-panel").delay(300).animate({"left" : "5vw"}, 300);
         $("#red-content").delay(300).animate({"height" : firstPanel[2]}, 400);
         $("#white-panel").css({"z-index" : middlePanel[0], "top" : middlePanel[1]}).addClass("inactive");
         $("#white-panel").delay(200).animate({"left" : "10vw"}, 200);
         $("#white-content").delay(200).animate({"height" : middlePanel[2]}, 300);
         $("#green-panel").css({"z-index" : lastPanel[0], "top" : lastPanel[1]}).addClass("inactive");
-        $("#green-panel").animate({"left" : "16vw"});
+        $("#green-panel").animate({"left" : "15vw"});
         $("#green-content").animate({"height" : lastPanel[2]}, 300);
     }
 
