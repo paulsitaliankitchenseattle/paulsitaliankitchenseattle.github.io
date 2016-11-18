@@ -21,6 +21,8 @@ body {
     -ms-user-select: none;
     user-select: none;
     cursor: default;
+
+    color: #333;
 }
 
 #top-panel {
@@ -62,6 +64,7 @@ body {
     font-size: 6vh;
     overflow: hidden;
     text-shadow: 0 0.2vh 0.5vh rgba(0,0,0,0.3);
+
 }
 
 #top-panel-phone {
@@ -91,7 +94,7 @@ a {
     height: 80vh;
 }
 
-::-webkit-scrollbar { 
+::-webkit-scrollbar {
     display: none;
 }
 
@@ -133,7 +136,7 @@ a {
 }
 
 #white-header {
-    color: black;
+    color: #333;
     text-shadow: 0 0.25vh 0.5vh rgba(0,0,0,0.3);
     background-color: white;
 }
