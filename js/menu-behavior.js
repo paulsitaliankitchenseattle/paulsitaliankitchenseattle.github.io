@@ -23,9 +23,9 @@
                                             .animate({"opacity" : "0"}, 100);
             $(".menu-category.active-cat").removeClass("active-cat");
 
+            // Compute height
             var height = 0;
             var items = $(this).find(".category-listings .list-item");
-            // Compute height
             for(var i = 0; i < items.length; i++) {
                 styles = window.getComputedStyle(items[i]);
                 // Get heights of each list item
