@@ -13,10 +13,9 @@
 .menu-category > div {
     border: 0.1vw solid rgba(255,255,255,0.75);
     border-radius: 5vw;
-    color: rgba(50,50,50,1);
+    color: #333;
     float: left;
     font-family: 'Italiano';
-    cursor: pointer;
 }
 
 .menu-category.active-cat > .category-label {
@@ -55,15 +54,34 @@
     font-weight: lighter;
     text-align: center;
     /*text-shadow: 0 0.75vh 1.5vh rgba(255,255,255,0.4);*/
+    cursor: pointer;
+
 }
 
 .category-listings {
     background-color: rgba(240,240,240,1);
-    overflow: hidden;
+    overflow-y: scroll;
     padding: 0;
     width: 55vw;
     opacity: 0;
     height: 0;
     margin-bottom: 5vh;
     margin-top: 1vh;
+    cursor: default;
+}
+
+.list-item:first-of-type {
+    margin-top: 5vw;
+    border: none;
+}
+.list-item {
+    text-align: left;
+    font-size: 1.5vw;
+    color: #333;
+    margin: 1vw 5vw;
+    border-top: 1px solid rgba(0,0,0,0.2);
+}
+
+.item-option {
+    font-size: 1.25vw;
 }
