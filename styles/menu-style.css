@@ -73,6 +73,7 @@
 .list-item:first-of-type {
     margin-top: 5vw;
     border: none;
+    box-shadow: 0 0px 1px white;
 }
 .list-item {
     text-align: left;
@@ -80,6 +81,7 @@
     color: #333;
     margin: 1vw 5vw;
     border-top: 1px solid rgba(0,0,0,0.2);
+    box-shadow: 0 -1px 1px white;
 }
 
 .item-option {
