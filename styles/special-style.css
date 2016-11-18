@@ -1,0 +1,30 @@
+#green-content {
+    text-align: center;
+}
+#green-content > div:last-of-type {
+    margin-bottom: 6vw;
+}
+
+h2 {
+    margin: auto;
+    width: 30%;
+    font-size: 2vw;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    margin-top: 1vw;
+    padding: 1vw;
+    box-shadow: 0 1px 1px white;
+}
+
+#special-calendar {
+    margin: auto;
+    width: 50%;
+    padding: 4vw 3vw 2vw 3vw;
+    font-family: 'Roboto Condensed';
+    font-size: 2.5vw;
+}
+
+.special-item {
+    font-size: 1.5vw;
+    padding: 1vw;
+}
